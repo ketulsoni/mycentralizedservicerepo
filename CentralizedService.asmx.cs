@@ -19,7 +19,7 @@ namespace CentralizedWebAPI
     public class CentralizedService : System.Web.Services.WebService
     {
 
-        SqlConnection con = new SqlConnection(@"Data Source=PC-346\SQLEXPRESS;Initial Catalog=Centralize_Forums;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Server=fcdef64e-d839-458f-8778-a47e0051d4da.sqlserver.sequelizer.com;Database=dbfcdef64ed839458f8778a47e0051d4da;User ID=kopimrocppmzbfop;Password=UqUkzLeKcJGAgtkouY7wWpifLDBhXr3safhkeLUUCas2ig7rzoJknmWDhPF5j5UT;");
         SqlCommand cmd;
         SqlDataAdapter da;
         DataSet ds;
